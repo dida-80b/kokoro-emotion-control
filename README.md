@@ -16,14 +16,20 @@ LLM-friendly emotion TTS control for Kokoro.
 - prosody: `[STRESS]`, `[SHOUT]`, `[FAST]`, `[SLOW]`, `[SOFT]`
 
 ## Install
-Use this repo directly. The old lab repo is optional as a legacy testbed.
+Use this repo directly.
 
 ## Run
 ```bash
 python scripts/render.py --text "[ANGER][STRESS]STOP[/STRESS][/ANGER]" --speaker martin --output out.wav
 ```
 
+## Train
+See `docs/training.md`.
+The repo ships the training code and base checkpoints; you still need the prepared dataset under `data/processed/emodb_augmented/`.
+
 ## Notes
 - `neutral` is the plain default path.
 - checkpoints are stored with Git LFS.
-- the old lab repo stays as the testbed.
+
+## License
+Code and scripts: MIT.
