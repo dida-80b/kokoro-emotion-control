@@ -1,0 +1,4 @@
+[NEUTRAL]Hallo. Das ist ein Test.[/NEUTRAL]
+[JOY]Das klappt richtig gut.[/JOY]
+[ANGER]Das ist zu viel.[/ANGER]
+[ANGER][STRESS]STOP[/STRESS] jetzt![/ANGER]

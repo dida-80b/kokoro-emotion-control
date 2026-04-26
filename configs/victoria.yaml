@@ -1,0 +1,62 @@
+speaker: victoria
+model:     models/bundles/victoria/kikiri_german_victoria_ep10.pth
+config:    models/shared/kokoro_config.json
+voicepack: models/bundles/victoria/voices/victoria.pt
+style_dir: styles/victoria_p05
+
+emotions:
+  neutral:
+    f0_checkpoint: null
+    style_key: null
+    alpha_acoustic: 0.0
+    alpha_prosodic: 0.0
+    speed: 1.0
+    volume: 1.0
+
+  joy:
+    f0_checkpoint: checkpoints/victoria/f0_contour_joy_final.pth
+    style_key: Freude
+    alpha_acoustic: 0.20
+    alpha_prosodic: 0.78
+    speed: 1.0
+    volume: 1.0
+
+  sadness:
+    f0_checkpoint: checkpoints/victoria/f0_contour_sadness_anger_final.pth
+    style_key: Trauer
+    alpha_acoustic: 0.20
+    alpha_prosodic: 0.78
+    speed: 0.82
+    volume: 0.95
+
+  anger:
+    f0_checkpoint: checkpoints/victoria/f0_contour_sadness_anger_final.pth
+    style_key: Wut
+    alpha_acoustic: 0.20
+    alpha_prosodic: 0.78
+    speed: 1.12
+    volume: 1.18
+
+  fear:
+    f0_checkpoint: checkpoints/victoria/f0_contour_sadness_anger_final.pth
+    style_key: Angst
+    alpha_acoustic: 0.20
+    alpha_prosodic: 0.78
+    speed: 1.0
+    volume: 1.0
+
+  disgust:
+    f0_checkpoint: checkpoints/victoria/f0_contour_sadness_anger_final.pth
+    style_key: Ekel
+    alpha_acoustic: 0.20
+    alpha_prosodic: 0.78
+    speed: 1.0
+    volume: 1.0
+
+  boredom:
+    f0_checkpoint: checkpoints/victoria/f0_contour_sadness_anger_final.pth
+    style_key: Langeweile
+    alpha_acoustic: 0.20
+    alpha_prosodic: 0.78
+    speed: 0.88
+    volume: 0.9

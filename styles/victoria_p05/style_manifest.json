@@ -1,0 +1,165 @@
+{
+  "source_type": "wavlm_v3_projected_kokoro_latent",
+  "benchmark_ready": true,
+  "emotion_encoder_checkpoint": "outputs/training/emotion_encoder_v3_p05_martin/emotion_encoder_v3_best.pth",
+  "adapter_checkpoint": "outputs/training/wavlm_kokoro_adapter_v1/wavlm_kokoro_adapter_best.pth",
+  "bundle": "victoria",
+  "embedding_dim": 256,
+  "strengths": [
+    "soft",
+    "mid",
+    "strong"
+  ],
+  "legacy_strength": "mid",
+  "prototype_neighbors": 5,
+  "note": "Projektierte Kokoro-Referenzvektoren mit soft/mid/strong-Prototypen statt reinem Mittelwert. style_<Emotion>.pt bleibt als Legacy-MID erhalten.",
+  "files": {
+    "Angst": {
+      "count": 69,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Angst.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Angst_mean.pt",
+      "mean_delta_to_neutral": 1.15494704246521,
+      "mean_confidence": 0.8934442400932312,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Angst_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Angst_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Angst_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Ekel": {
+      "count": 46,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Ekel.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Ekel_mean.pt",
+      "mean_delta_to_neutral": 1.225279688835144,
+      "mean_confidence": 0.8570125699043274,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Ekel_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Ekel_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Ekel_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Freude": {
+      "count": 71,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Freude.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Freude_mean.pt",
+      "mean_delta_to_neutral": 1.703565239906311,
+      "mean_confidence": 0.9095188975334167,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Freude_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Freude_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Freude_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Langeweile": {
+      "count": 81,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Langeweile.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Langeweile_mean.pt",
+      "mean_delta_to_neutral": 0.9466509222984314,
+      "mean_confidence": 0.917263925075531,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Langeweile_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Langeweile_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Langeweile_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Neutral": {
+      "count": 79,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Neutral.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Neutral_mean.pt",
+      "mean_delta_to_neutral": 0.0,
+      "mean_confidence": 0.9095905423164368,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Neutral_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Neutral_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Neutral_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Trauer": {
+      "count": 62,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Trauer.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Trauer_mean.pt",
+      "mean_delta_to_neutral": 1.0738548040390015,
+      "mean_confidence": 0.9306318163871765,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Trauer_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Trauer_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Trauer_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Wut": {
+      "count": 127,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Wut.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Wut_mean.pt",
+      "mean_delta_to_neutral": 1.8482760190963745,
+      "mean_confidence": 0.8331084251403809,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Wut_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Wut_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_victoria_p05/style_Wut_strong.pt",
+          "dims": 256
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "source_type": "wavlm_v3_projected_kokoro_latent",
+  "benchmark_ready": true,
+  "emotion_encoder_checkpoint": "outputs/training/emotion_encoder_v3_p05_martin/emotion_encoder_v3_best.pth",
+  "adapter_checkpoint": "outputs/training/wavlm_kokoro_adapter_p05_martin/wavlm_kokoro_adapter_best.pth",
+  "bundle": "martin",
+  "embedding_dim": 256,
+  "strengths": [
+    "soft",
+    "mid",
+    "strong"
+  ],
+  "legacy_strength": "mid",
+  "prototype_neighbors": 5,
+  "note": "Projektierte Kokoro-Referenzvektoren mit soft/mid/strong-Prototypen statt reinem Mittelwert. style_<Emotion>.pt bleibt als Legacy-MID erhalten.",
+  "files": {
+    "Angst": {
+      "count": 69,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Angst.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Angst_mean.pt",
+      "mean_delta_to_neutral": 1.21527099609375,
+      "mean_confidence": 0.8946683406829834,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Angst_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Angst_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Angst_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Ekel": {
+      "count": 46,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Ekel.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Ekel_mean.pt",
+      "mean_delta_to_neutral": 1.0830416679382324,
+      "mean_confidence": 0.861889660358429,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Ekel_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Ekel_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Ekel_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Freude": {
+      "count": 71,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Freude.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Freude_mean.pt",
+      "mean_delta_to_neutral": 1.3861840963363647,
+      "mean_confidence": 0.9086512327194214,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Freude_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Freude_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Freude_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Langeweile": {
+      "count": 81,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Langeweile.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Langeweile_mean.pt",
+      "mean_delta_to_neutral": 0.7952647805213928,
+      "mean_confidence": 0.9170215725898743,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Langeweile_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Langeweile_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Langeweile_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Neutral": {
+      "count": 79,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Neutral.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Neutral_mean.pt",
+      "mean_delta_to_neutral": 0.0,
+      "mean_confidence": 0.9088234305381775,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Neutral_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Neutral_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Neutral_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Trauer": {
+      "count": 62,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Trauer.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Trauer_mean.pt",
+      "mean_delta_to_neutral": 1.2080188989639282,
+      "mean_confidence": 0.9306514263153076,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Trauer_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Trauer_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Trauer_strong.pt",
+          "dims": 256
+        }
+      }
+    },
+    "Wut": {
+      "count": 127,
+      "legacy_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Wut.pt",
+      "mean_path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Wut_mean.pt",
+      "mean_delta_to_neutral": 1.556770920753479,
+      "mean_confidence": 0.8325682282447815,
+      "strengths": {
+        "soft": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Wut_soft.pt",
+          "dims": 256
+        },
+        "mid": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Wut_mid.pt",
+          "dims": 256
+        },
+        "strong": {
+          "path": "outputs/projected_styles/wavlm_v3_kokoro_martin_p05/style_Wut_strong.pt",
+          "dims": 256
+        }
+      }
+    }
+  }
+}
